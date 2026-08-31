@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Foods - Best Restaurant in Karachi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Delhi Foods Logo" class="logo">
+                <div class="brand-info">
+                    <h1>Delhi Foods</h1>
+                    <p>Best Restaurant in Town</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Delhi Foods</h2>
+            <p>Experience the Finest Fast Food & Traditional Dishes</p>
+            <p class="location"><i class="fas fa-map-marker-alt"></i> Malir Kalaboard, Karachi, Pakistan</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="https://wa.me/923119922302" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Cards -->
+    <section class="info-cards">
+        <div class="container">
+            <div class="card">
+                <i class="fas fa-star"></i>
+                <h3>4.1 Rating</h3>
+                <p>257 Reviews</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-clock"></i>
+                <h3>Opens 11 AM</h3>
+                <p>Daily Service</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Rs 1–1,000</h3>
+                <p>Affordable Prices</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-utensils"></i>
+                <h3>Dine-in & Takeout</h3>
+                <p>Delivery Available</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="fast-food">Fast Food</button>
+                <button class="filter-btn" data-filter="burger">Burgers</button>
+                <button class="filter-btn" data-filter="bbq">BBQ</button>
+                <button class="filter-btn" data-filter="biryani">Biryani</button>
+                <button class="filter-btn" data-filter="desi">Desi Items</button>
+            </div>
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="portfolio1.jpg" alt="Biryani">
+                    <div class="overlay">
+                        <p>Biryani</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="portfolio2.jpg" alt="Broast">
+                    <div class="overlay">
+                        <p>Chicken Broast</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="portfolio3.jpg" alt="BBQ">
+                    <div class="overlay">
+                        <p>BBQ Items</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Delhi Foods</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Delhi Foods is a premier fast food restaurant located in Malir Kalaboard, Karachi. We serve authentic Pakistani and fast food with the highest quality ingredients and exceptional customer service.</p>
+                    <p><strong>Our Specialties:</strong></p>
+                    <ul>
+                        <li>✓ Chicken Broast & Kababs</li>
+                        <li>✓ Fresh Biryani & Pulao</li>
+                        <li>✓ Traditional Desi Items</li>
+                        <li>✓ Chinese Dishes</li>
+                        <li>✓ Burgers & Sandwiches</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="logo.png" alt="Delhi Foods">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+923119922302">+92 311 9922302</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>V5MM+357, Begum Khursheed Rd, Darakhshan Society, Kalaboard, Karachi</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Opens 11 AM - Late Night</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <input type="text" placeholder="Your Name" id="contactName">
+                    <input type="email" placeholder="Your Email" id="contactEmail">
+                    <textarea placeholder="Your Message" rows="5" id="contactMessage"></textarea>
+                    <button class="btn btn-primary" onclick="sendMessage()">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Delhi Foods. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://wa.me/923119922302" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="tel:+923119922302"><i class="fas fa-phone"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chatbot Button -->
+    <div class="chatbot-widget">
+        <button class="chatbot-toggle" id="chatbotToggle">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chatbot-window" id="chatbotWindow">
+            <div class="chatbot-header">
+                <h3>Delhi Foods Chat</h3>
+                <button class="close-btn" id="closeChat">&times;</button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages"></div>
+            <div class="chatbot-input">
+                <input type="text" id="userInput" placeholder="Ask about menu...">
+                <button onclick="sendChatMessage()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/923119922302" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
